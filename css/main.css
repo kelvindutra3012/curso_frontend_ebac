@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: whitesmoke ;
+}
+
+header  .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+}
+header li{
+    display: inline;  
+    font-family: Arial, Helvetica, sans-serif;  
+    font-weight: bold;
+    margin: left;
+
+}
+
+header li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+.articles article{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+.articles article a{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+
+}
+
+.articles article a:hover {
+text-decoration: underline ;
+}
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+section h2{
+    font-size: 32px;
+}
+
+#sports {
+    background-image: url(https://img.freepik.com/premium-vector/modern-gradient-black-background-with-lines-shape-sports-abstract-background-vector-illustration_113494-120.jpg);
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: bold;
+}
+#sports .articles article a {
+    background-color:#009432;
+}
+
+#economy {
+    
+    background-image: url(https://img.freepik.com/fotos-gratis/parede-de-concreto_1154-642.jpg?w=900&t=st=1709237243~exp=1709237843~hmac=4c25ebeb489ff2cecbfb3a0252759a1403ad0575049997f68e9dccc8fdbaaeb8);
+    color: rgb(10, 10, 10);
+    font-size: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#economy .articles article a{
+    background-color: #0a0908;
+
+}
+
+.filmes{
+    background-image: url(https://conteudo.imguol.com.br/c/noticias/0d/2016/10/31/pipoca-cinema-tela-filme-1477941702204_v2_1920x1281.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.9));
+    color: white;
+    font-size: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.série{
+    background-image: url(https://blog.vittaresidencial.com.br/wp-content/uploads/2022/04/series-e-filmes.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.9));
+    color: white;
+    font-size: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
